@@ -8,67 +8,9 @@
         <h1>добро пожаловать</h1>
         <h3>Это мой сайт</h3>
         <p>восхвалять или нет, вообще интересно</p>
-            <p>string[,] logs = new string [50, 5];</p>
-    <p>byte choice = 0;</p>
-    <p>bool error = false;</p>
-    <p>do</p>
-    <p>{</p>
-    <p>Console.Write("Главное меню:\n" +</p>
-    <p>" 1 Добавить задачу\n" +</p>
-    <p>" 2 Удалить задачу\n" +</p>
-    <p>" 3 Редактировать задачу\n" +</p>
-    <p>" 4 Просмотреть список задач\n" +</p>
-    <p>" 5 Выйти из приложения\n" +</p>
-    <p>"Ввод: ");</p>
-    <p>choice = byte.Parse(Console.ReadLine());</p>
-    <p>switch (choice)</p>
-    <p>{</p>
-    <p>case 1:</p>
-    <p>Console.WriteLine("Добавить задачу:");</p>
-    <p>for (int i = 0; i !!!= logs.GetLength(0); i++)</p>
-    <p>{</p>
-    <p>if (i == 50)</p>
-    <p>{</p>
-    <p>error = true;</p>
-    <p>break;</p>
-    <p>}</p>
-    <p>if (logs[i, 0] == null)</p>
-    <p>{</p>
-    <p>logs[i, 0] = $"{i + 1}";</p>
-    <p>Console.Write("Введите название: ");</p>
-    <p>logs[i, 1] = Console.ReadLine();</p>
-    <p>Console.Write("В формате дд.мм.гггг или ISO yyyy-mm-dd\n" +</p>
-    <p>$"Сейчас: {DateTime.Now.ToString("d")}\n" +</p>
-    <p>"Введите дату: ");</p>
-    <p>logs[i, 2] = Console.ReadLine();</p>
-    <p>Console.Write("Формат: чч:мм\n" +</p>
-    <p>$"Сейчас: {DateTime.Now.ToString("t")}\n" +</p>
-    <p>"Введите время: ");</p>
-    <p>logs[i, 3] = Console.ReadLine();</p>
-    <p>
-      Console.Write("Приоритет (целое число, например, 1 — высокий, 2 — средний,
-      3 — низкий)\n" +
-    </p>
-    <p>"Введите: ");</p>
-    <p>logs[i, 4] = Console.ReadLine();</p>
-    <p>break;</p>
-    <p>}</p>
-    <p>else</p>
-    <p>continue;</p>
-    <p>}</p>
-    <p>break;</p>
-    <p>}</p>
-    <p>if (error)</p>
-    <p>{</p>
-    <p>
-      Console.WriteLine($"[{DateTime.Now.ToString("g")}] Превышено максимальное
-      количество логов. Новые записи не сохраняются");
-    </p>
-    <p>}</p>
-    <p>}</p>
-    <p>while (true);</p>
         <button type="button" href=""></button>
     </body>
 
 </html>
+
 
